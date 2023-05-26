@@ -9,14 +9,15 @@
   .header-content{
 font-family: 'SF Pro Display';
 color: #ffffff;
-padding: 3rem;
+padding-top: 3rem;
+padding-left: 1rem;
   }
   .header-content h1{
     text-transform: uppercase;
     width: 500px;
   }
   .header-content p{
-    width: 700px;
+    width: 400px;
   }
   .btn-black{
 color: white;
@@ -25,15 +26,16 @@ background: #000000;
   .header-card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-   padding-left: 3rem;
+    gap: 2rem;
+   padding-left: 0rem;
   }
   .header-card img:hover{
       transform: scale(1.1);
       cursor: default;
   }
   .projects{
-    margin-top: 12rem;
-    padding-left: 3rem;
+    margin-top: 10rem;
+    padding-left: 1rem;
   }
   .project-head{
     display: flex;
@@ -75,7 +77,7 @@ object-fit: cover;
 .expertise{
   display: grid;
   grid-template-columns: 1fr;
-  padding-left: 3rem;
+  padding-left: 1rem;
 }
 .show-toggle{
   display: none;
@@ -124,7 +126,7 @@ object-fit: cover;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  padding-left: 3rem;
+  padding-left: 1rem;
 }
 .card-content{
   width: 317px;
@@ -148,13 +150,13 @@ border-width: 1px 0px;
 border-style: solid;
 border-color: #000000;
 display: grid;
-grid-template-columns: 50% 50% ;
-width: 100%;
+grid-template-columns:1fr 1fr ;
+width: 100vw;
 gap: 3rem;
 }
 .newsletter-left{
   width: 700px;
-  padding: 6rem 9rem;
+  padding: 6rem 6rem;
 }
 .newsletter-left p{
   color: black;
@@ -263,18 +265,18 @@ background: #000000;
   }
   .header-card{
     grid-template-columns:1fr;
-   padding-left: 3rem;
-   margin-top: 11rem;
+   padding-left: 1rem;
+   margin-top: 15rem;
   }
   .projects{
-    margin-top: 45rem;
+    margin-top: 51rem;
     padding-left: 1rem;
   }
   .project-head{
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
-    gap: 9rem;
+    gap: 7rem;
   
   }
   .project-head h1{
@@ -285,7 +287,7 @@ background: #000000;
   }
   .project-card{
 display: flex;
-width: 350px;
+width: 320px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px 0px 40px;
@@ -293,8 +295,8 @@ gap: 10px;
 background: #ffffff;
   }
   .project-card img{
-    width: 324px;
-    height: 320px;
+    width: 300px;
+    height: 300x;
   object-fit: cover;
   }
   .project-card h4{
@@ -309,7 +311,7 @@ background: #ffffff;
     grid-template-columns: 1fr;
   }
   .date-wrapper{
-    gap: 4rem;
+    gap: 2rem;
   }
   .expertise{
     margin-top: 1rem;
@@ -317,7 +319,7 @@ background: #ffffff;
   }
 
   .expertise-wrapper{
-    width: 351px; 
+    width: 331px; 
     align-items: left;
   }
   .expertise-wrapper img{
@@ -342,7 +344,7 @@ background: #ffffff;
     display: flex;
     flex-direction: row;
     margin-bottom: 1.5rem;
-    gap: 8rem;
+    gap: 6rem;
   }
   .team-head h1{
     font-size: 1.1rem;
@@ -354,23 +356,21 @@ background: #ffffff;
   .team-wrapper{
     grid-template-columns:1fr;
     gap: 2rem;
-    padding-left: 1rem;
   }
   .card-content{
-    width: 317px;
+    width: 250px;
     text-align: center;
+    padding-left: 0rem;
   }
   .card-content img{
-    width: 324px;
-    height: 324px;
+    width: 250px;
+    height: 250px;
   }
   .newsletter{
     margin-top: 7rem;
   }
   .newsletter-container{
-  grid-template-columns:1fr ;
-  width: 100%;
-  gap: 3rem;
+  gap: 2rem;
   }
   .newsletter-left{
     width: 400px;
@@ -392,8 +392,5 @@ background: #ffffff;
     border: none;
     background: transparent;
     color: white;
-  }
-  .btn-form{
-    text-align: right;
   }
 }
