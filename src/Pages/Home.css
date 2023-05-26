@@ -173,7 +173,9 @@ gap: 3rem;
   border: none;
   background: transparent;
   color: white;
+  padding-top: 2rem;
 }
+
 
 
 @media screen and (max-width:1240px){
@@ -240,18 +242,12 @@ height: 240px;
 @media screen and (max-width: 600px){ 
   header{
     width: 100vw;
-height: 100vh;
 background-image: url(../images/bg-image.jpg);
 object-fit: cover;
   }
-  .header-content{
-    color: #000000;
-    padding-top: 40rem;
-    padding-left: 0;
-  }
   .header-content h1{
     text-transform: uppercase;
-    width: 400px;
+    width: 300px;
   }
   .header-card h2{
     font-size: 2.5rem;
@@ -263,21 +259,26 @@ object-fit: cover;
   .btn-black{
 color: white;
 background: #000000;
+
   }
   .header-card{
     grid-template-columns:1fr;
    padding-left: 3rem;
-   margin-top: 0rem;
+   margin-top: 11rem;
   }
   .projects{
-    margin-top: 73rem;
+    margin-top: 45rem;
     padding-left: 1rem;
   }
   .project-head{
     display: flex;
     flex-direction: row;
-    gap: 8rem;
+    margin-bottom: 1rem;
+    gap: 9rem;
   
+  }
+  .project-head h1{
+    font-size: 1.5rem;
   }
   .project-head p:hover{
     cursor: pointer;
@@ -292,9 +293,9 @@ gap: 10px;
 background: #ffffff;
   }
   .project-card img{
-    width: 364px;
-    height: 240px;
-object-fit: cover;
+    width: 324px;
+    height: 320px;
+  object-fit: cover;
   }
   .project-card h4{
     font-size: 1rem;
@@ -308,7 +309,7 @@ object-fit: cover;
     grid-template-columns: 1fr;
   }
   .date-wrapper{
-    gap: 5rem;
+    gap: 4rem;
   }
   .expertise{
     margin-top: 1rem;
@@ -320,8 +321,8 @@ object-fit: cover;
     align-items: left;
   }
   .expertise-wrapper img{
-    width: 364px;
-    height: 240px;
+    width: 324px;
+    height: 220px;
   object-fit: cover;
   }
   .content{
@@ -331,8 +332,8 @@ object-fit: cover;
   display: block;
   }
   .card-content img{
-    width: 279.13px;
-    height: 279.13px;
+    width: 259.13px;
+    height: 259.13px;
   }
   .team{
     margin-top: 5rem;
@@ -341,7 +342,7 @@ object-fit: cover;
     display: flex;
     flex-direction: row;
     margin-bottom: 1.5rem;
-    gap: 10rem;
+    gap: 8rem;
   }
   .team-head h1{
     font-size: 1.1rem;

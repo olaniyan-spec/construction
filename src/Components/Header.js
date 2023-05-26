@@ -11,8 +11,8 @@ const Header = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim non ac proin vitae massa. Mi mollis sed nunc hac sed sodales tristique erat sed non adipiscing ullamcorper. </p>
                 <button className='btn btn-white'>View Projects</button>
                 <button className='btn btn-black'>Contact Us</button>
-                </div> 
-        </div>
+            </div> 
+        
         <div className='header-card'>
             {
                 data.map((res, id)=>{
@@ -23,6 +23,7 @@ const Header = () => {
                     </Card>
                 })
             }
+        </div>
         </div>
     </header>
   )
