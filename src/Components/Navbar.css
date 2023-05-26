@@ -1,0 +1,100 @@
+nav{
+   padding-top: 1rem;
+    padding-left:6rem;
+    display: flex;
+  position: relative;
+}
+.nav-wrapper{
+    display: flex;
+    
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-wrapper h3{
+    position: absolute;
+    display: flex;
+    top: 5px;
+    left: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+
+.nav-links{
+    display: flex;
+    gap: 5rem;
+    padding-left: 5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-wrapper button{
+    width: 107px;
+    height: 40px;
+}
+.nav-toggle{
+    display: none;
+}
+@media screen and (max-width: 1024px){
+    nav{
+        padding-left: 3rem;
+    }
+    .nav-links{
+        gap: 3rem;
+
+    }.nav-links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 90px;
+        color: #ffffff;
+        right: 0px;
+        width: 200px;
+        height: 100vh;
+        background: black;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 1px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-links button{
+            width: fit-content;
+            margin: 0 auto;
+            padding: 0.9rem 2rem;
+            transition: var(--transition);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            background: white;
+            color: black;
+    }
+    .nav-links li{
+        margin-bottom: 25px;
+        cursor: pointer;
+    }
+    .nav-toggle{
+        background: transparent;
+        display: inline-block;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color:#000000;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+       }
+       .show-nav{
+        display: flex;
+       }
+       .hide-nav{
+        display: none;
+       }
+       .nav-wrapper{
+        gap: 35rem;
+    }
+}
+    @media screen and (max-width: 600px){
+        .nav-wrapper{
+            gap: 10rem;
+        }
+      
+    }

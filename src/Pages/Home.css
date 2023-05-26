@@ -1,0 +1,398 @@
+
+ .header{
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/bg-image.jpg);
+} 
+  .header-content{
+font-family: 'SF Pro Display';
+color: #ffffff;
+padding: 3rem;
+  }
+  .header-content h1{
+    text-transform: uppercase;
+    width: 500px;
+  }
+  .header-content p{
+    width: 700px;
+  }
+  .btn-black{
+color: white;
+background: #000000;
+  }
+  .header-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   padding-left: 3rem;
+  }
+  .header-card img:hover{
+      transform: scale(1.1);
+      cursor: default;
+  }
+  .projects{
+    margin-top: 12rem;
+    padding-left: 3rem;
+  }
+  .project-head{
+    display: flex;
+    flex-direction: row;
+    gap: 40rem;
+  }
+  .project-head p:hover{
+    cursor: pointer;
+  }
+  .project-card{
+display: flex;
+width: 500px;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 80px;
+gap: 20px;
+background: #ffffff;
+  }
+  .project-card img{
+    width: 546px;
+height: 298px;
+object-fit: cover;
+  }
+  .project-card h4{
+    font-size: 1rem;
+  }
+  .project-card small{
+    font-size: 11px;
+  }
+  .Card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+.date-wrapper{
+  display: flex;
+  gap: 21rem;
+}
+/*expertise*/
+.expertise{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 3rem;
+}
+.show-toggle{
+  display: none;
+}
+.expertise-wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  justify-content: flex-start;
+  text-align: left;
+  align-items: left;
+  width: 1000px;
+  background: #FFFFFF;
+}
+.exp-content{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.expertise-wrapper img{
+  width: 1100px;
+  height: 398px;
+}
+.border{
+  border-bottom: 1px solid #000000;
+}
+.button-wrapper{
+  text-align: right;
+  padding-right: 8rem;
+  gap: 2rem;
+}
+/* team*/
+.team{
+  margin-top: 7rem;
+}
+.team-head{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+  gap: 30rem;
+}
+.team-head p:hover{
+  cursor: pointer;
+}
+.team-wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding-left: 3rem;
+}
+.card-content{
+  width: 317px;
+  text-align: center;
+}
+.card-content img{
+  width: 324px;
+  height: 324px;
+}
+.card-content img:hover{
+  transform: scale(1.1);
+}
+/*newsletter*/
+.newsletter{
+  margin-top: 7rem;
+}
+.newsletter-container{
+  box-sizing: border-box;
+  background: #FFFFFF;
+border-width: 1px 0px;
+border-style: solid;
+border-color: #000000;
+display: grid;
+grid-template-columns: 50% 50% ;
+width: 100%;
+gap: 3rem;
+}
+.newsletter-left{
+  width: 700px;
+  padding: 6rem 9rem;
+}
+.newsletter-left p{
+  color: black;
+}
+.newsletter-left h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.newsletter-right{
+  display: flex;
+  color: #ffffff;
+  padding: 3rem;
+  background-color: #000000;
+}
+.newsletter-right input{
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+
+@media screen and (max-width:1240px){
+  .header-card{
+   padding-left: 1rem;
+   margin-top: 4rem;
+     }
+     .header-content h1{
+      width: 300px;
+    }
+    .header-content p{
+      width: 500px;
+    }
+    .projects{
+      margin-top: 12rem;
+      padding-left: 3rem;
+    }
+    .project-card img{
+      width: 381px;
+height: 240px;
+    }
+    .project-card{
+      width: 400px;
+        }
+        .project-head{
+          gap: 35rem;
+        }
+        .date-wrapper h4{
+          font-size: 0.8rem;
+        }
+        .date-wrapper{
+          gap: 15rem;
+        }
+        .expertise{
+          padding-left: 3rem;
+        }
+      
+        .expertise-wrapper{
+          width: 581px; 
+          align-items: left;
+        }
+        .expertise-wrapper img{
+          width: 850px;
+        }
+        .content{
+          display: none;
+        }
+        .show-toggle{
+        display: block;
+        }
+        .card-content img{
+          width: 279.13px;
+          height: 279.13px;
+        }
+        .team-wrapper{
+          gap: 0rem;
+          padding-left: 3rem;
+        }
+        .card-content{
+          width: 250px;
+        }
+      }
+  
+@media screen and (max-width: 600px){ 
+  header{
+    width: 100vw;
+height: 100vh;
+background-image: url(../images/bg-image.jpg);
+object-fit: cover;
+  }
+  .header-content{
+    color: #000000;
+    padding-top: 40rem;
+    padding-left: 0;
+  }
+  .header-content h1{
+    text-transform: uppercase;
+    width: 400px;
+  }
+  .header-card h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .header-content p{
+    width: 300px;
+  }
+  .btn-black{
+color: white;
+background: #000000;
+  }
+  .header-card{
+    grid-template-columns:1fr;
+   padding-left: 3rem;
+   margin-top: 0rem;
+  }
+  .projects{
+    margin-top: 73rem;
+    padding-left: 1rem;
+  }
+  .project-head{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+  
+  }
+  .project-head p:hover{
+    cursor: pointer;
+  }
+  .project-card{
+display: flex;
+width: 350px;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 40px;
+gap: 10px;
+background: #ffffff;
+  }
+  .project-card img{
+    width: 364px;
+    height: 240px;
+object-fit: cover;
+  }
+  .project-card h4{
+    font-size: 1rem;
+    width: 200px;
+  }
+  .project-card small{
+    font-size: 11px;
+    width: 200px;
+  }
+  .Card {
+    grid-template-columns: 1fr;
+  }
+  .date-wrapper{
+    gap: 5rem;
+  }
+  .expertise{
+    margin-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  .expertise-wrapper{
+    width: 351px; 
+    align-items: left;
+  }
+  .expertise-wrapper img{
+    width: 364px;
+    height: 240px;
+  object-fit: cover;
+  }
+  .content{
+    display: none;
+  }
+  .show-toggle{
+  display: block;
+  }
+  .card-content img{
+    width: 279.13px;
+    height: 279.13px;
+  }
+  .team{
+    margin-top: 5rem;
+  }
+  .team-head{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+    gap: 10rem;
+  }
+  .team-head h1{
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  .team-head p:hover{
+    cursor: pointer;
+  }
+  .team-wrapper{
+    grid-template-columns:1fr;
+    gap: 2rem;
+    padding-left: 1rem;
+  }
+  .card-content{
+    width: 317px;
+    text-align: center;
+  }
+  .card-content img{
+    width: 324px;
+    height: 324px;
+  }
+  .newsletter{
+    margin-top: 7rem;
+  }
+  .newsletter-container{
+  grid-template-columns:1fr ;
+  width: 100%;
+  gap: 3rem;
+  }
+  .newsletter-left{
+    width: 400px;
+    padding: 3rem 3rem;
+  }
+  .newsletter-left p{
+    color: black;
+  }
+  .newsletter-left h1{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .newsletter-right{
+    color: #ffffff;
+    padding: 3rem;
+    background-color: #000000;
+  }
+  .newsletter-right input{
+    border: none;
+    background: transparent;
+    color: white;
+  }
+  .btn-form{
+    text-align: right;
+  }
+}
