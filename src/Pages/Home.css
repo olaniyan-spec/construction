@@ -370,6 +370,7 @@ background: #ffffff;
     margin-top: 7rem;
   }
   .newsletter-container{
+    grid-template-columns: 1fr;
   gap: 2rem;
   }
   .newsletter-left{
