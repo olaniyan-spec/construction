@@ -89,7 +89,7 @@ object-fit: cover;
   justify-content: flex-start;
   text-align: left;
   align-items: left;
-  width: 1000px;
+  max-width: 700px;
   background: #FFFFFF;
 }
 .exp-content{
@@ -151,6 +151,7 @@ border-width: 1px 0px;
 border-style: solid;
 border-color: #000000;
 display: grid;
+width: fit-content;
 grid-template-columns:1fr 1fr ;
 gap: 2rem;
 }
@@ -244,8 +245,7 @@ gap: 2rem;
       }
   
 @media screen and (max-width: 600px){ 
-  header{
-    
+  header{  
 background-image: url(../images/bg-image.jpg);
 object-fit: cover;
   }
@@ -267,7 +267,6 @@ object-fit: cover;
   .btn-black{
 color: white;
 background: #000000;
-
   }
   .header-card{
     grid-template-columns:1fr;
@@ -282,7 +281,6 @@ background: #000000;
     flex-direction: row;
     margin-bottom: 1rem;
     gap: 7rem;
-  
   }
   .project-head h1{
     font-size: 1.5rem;
@@ -324,7 +322,7 @@ background: #ffffff;
   }
 
   .expertise-wrapper{
-    width: 331px; 
+    max-width: 331px; 
     align-items: left;
   }
   .expertise-wrapper img{

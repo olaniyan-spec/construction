@@ -4,14 +4,14 @@ import NewCard from './NewCard'
 
 
 const Projects = () => {
-  const [load, setLoad]= useState(4);
+  const [load, setLoad]= useState(2);
   const slice = building.slice(0, load);
   const loadMore = ()=>{
-    setLoad(load + load);
+    setLoad(load + 4);
   }
 
-  if(load >= 13){
-    setLoad(4)
+  if(load >= 7){
+    setLoad(2)
   }
   return (
     <section className='projects' id='project'>

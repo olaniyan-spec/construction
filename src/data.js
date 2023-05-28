@@ -67,28 +67,8 @@ export const building = [
         title: 'Arlene McCoy',
         date:'January, 2023',
         text: 'Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt....... '
-    },
-    {
-        id:8,
-        image: require('./images/img4.jpg'),
-        title: 'Arlene McCoy',
-        date:'January, 2023',
-        text: 'Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt....... '
-    },
-    {
-        id:9,
-        image: require('./images/img3.jpg'),
-        title: 'Arlene McCoy',
-        date:'January, 2023',
-        text: 'Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt....... '
-    },
-    {
-        id:10,
-        image: require('./images/img2.jpg'),
-        title: 'Arlene McCoy',
-        date:'January, 2023',
-        text: 'Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt....... '
-    },
+    }
+   
 ]
 export const expertise = [
     {
