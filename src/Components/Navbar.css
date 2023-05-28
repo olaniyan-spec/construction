@@ -48,11 +48,12 @@ nav{
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
-        top: 90px;
+        top: 50px;
         color: #ffffff;
         right: 0px;
         width: 200px;
-        height: 100vh;
+        height: 70vh;
+        gap: 1rem;
         background: black;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 1px 0 0 10px;

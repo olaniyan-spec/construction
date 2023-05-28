@@ -10,7 +10,7 @@
 font-family: 'SF Pro Display';
 color: #ffffff;
 padding-top: 3rem;
-padding-left: 1rem;
+
   }
   .header-content h1{
     text-transform: uppercase;
@@ -27,7 +27,7 @@ background: #000000;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-   padding-left: 0rem;
+   margin-left: 0;
   }
   .header-card img:hover{
       transform: scale(1.1);
@@ -151,10 +151,10 @@ border-style: solid;
 border-color: #000000;
 display: grid;
 grid-template-columns:1fr 1fr ;
-gap: 3rem;
+gap: 2rem;
 }
 .newsletter-left{
-  padding: 3rem;
+  padding: 2rem;
 }
 .newsletter-left p{
   color: black;
@@ -180,7 +180,6 @@ gap: 3rem;
 
 @media screen and (max-width:1240px){
   .header-card{
-   padding-left: 1rem;
    margin-top: 4rem;
      }
      .header-content h1{
@@ -195,7 +194,7 @@ gap: 3rem;
     }
     .project-card img{
       width: 381px;
-height: 240px;
+    height: 240px;
     }
     .project-card{
       width: 400px;
@@ -248,6 +247,10 @@ object-fit: cover;
   .header-content h1{
     text-transform: uppercase;
     width: 300px;
+    margin-top: 2rem;
+  }
+  .header-content button{
+    margin-top: 5rem;
   }
   .header-card h2{
     font-size: 2.5rem;
@@ -264,10 +267,10 @@ background: #000000;
   .header-card{
     grid-template-columns:1fr;
    padding-left: 1rem;
-   margin-top: 15rem;
+   margin-top: 17rem;
   }
   .projects{
-    margin-top: 51rem;
+    margin-top: 58rem;
     padding-left: 1rem;
   }
   .project-head{
@@ -369,12 +372,14 @@ background: #ffffff;
   }
   .newsletter-container{
     grid-template-columns: 1fr;
+    margin-left: 1rem;
+  
 
-    
+
   gap: 2rem;
   }
   .newsletter-left{
-
+padding-left: 0;
   }
   .newsletter-left p{
     color: black;
@@ -385,12 +390,15 @@ background: #ffffff;
   }
   .newsletter-right{
     color: #ffffff;
-    padding: 3rem;
+    padding: 0;
+    padding-left: 1rem;
     background-color: #000000;
   }
   .newsletter-right input{
     border: none;
     background: transparent;
     color: white;
+    padding-top: 1rem;
+    
   }
 }

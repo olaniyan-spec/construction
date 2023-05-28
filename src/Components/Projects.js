@@ -1,14 +1,15 @@
-import React, { useState } from 'react'
+import React, {  useState } from 'react'
 import { building } from '../data'
 import NewCard from './NewCard'
 
 
 const Projects = () => {
   const [load, setLoad]= useState(4);
-  const slice = building.slice(0, load );
+  const slice = building.slice(0, load);
   const loadMore = ()=>{
     setLoad(load + load);
   }
+
   if(load >= 13){
     setLoad(4)
   }
