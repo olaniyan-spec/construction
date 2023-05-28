@@ -152,7 +152,6 @@ border-style: solid;
 border-color: #000000;
 display: grid;
 grid-template-columns:1fr 1fr ;
-width: 100vw;
 gap: 2rem;
 }
 .newsletter-left{
@@ -178,6 +177,9 @@ gap: 2rem;
   background: transparent;
   color: white;
   padding-top: 2rem;
+}
+.newsletter-right button{
+  color: #000000;
 }
 
 
