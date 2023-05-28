@@ -8,8 +8,8 @@ const Navbar = () => {
   const [navShowing, setNavShowing] = useState(false)
   return (
     <nav >
-      <h3>YELLOW BRICK</h3>
         <div className='nav-wrapper'>
+        <h3>YELLOW BRICK</h3>
           <ul className={`nav-links ${navShowing? 'show-nav' : 'hide-nav'}`} onClick={()=> setNavShowing(false)}>
             <li><NavLink to='#expertise'>Our Expertise</NavLink></li>
             <li><NavLink to='#project'> Project</NavLink></li>
