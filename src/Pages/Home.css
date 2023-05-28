@@ -1,7 +1,5 @@
 
  .header{
-    height: 100vh;
-    width: 100vw;
     background-size: cover;
     background-position: center;
     background-image: url(../images/bg-image.jpg);
@@ -19,6 +17,9 @@ padding-top: 3rem;
   .header-content p{
     width: 400px;
   }
+  .btn-white{
+    color: #000000;
+  }
   .btn-black{
 color: white;
 background: #000000;
@@ -26,15 +27,14 @@ background: #000000;
   .header-card{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-   margin-left: 0;
+   margin-left: 2rem;
   }
   .header-card img:hover{
       transform: scale(1.1);
       cursor: default;
   }
   .projects{
-    margin-top: 10rem;
+    margin-top: 5rem;
     padding-left: 1rem;
   }
   .project-head{
@@ -151,10 +151,13 @@ border-style: solid;
 border-color: #000000;
 display: grid;
 grid-template-columns:1fr 1fr ;
+width: 100vw;
 gap: 2rem;
 }
 .newsletter-left{
-  padding: 2rem;
+  padding: 3rem;
+  padding-left: 3rem;
+  justify-content: center;
 }
 .newsletter-left p{
   color: black;
@@ -167,7 +170,7 @@ gap: 2rem;
   display: flex;
   color: #ffffff;
   padding: 3rem;
-  background-color: #000000;
+  background: #000000;
 }
 .newsletter-right input{
   border: none;
@@ -175,7 +178,6 @@ gap: 2rem;
   color: white;
   padding-top: 2rem;
 }
-
 
 
 @media screen and (max-width:1240px){
@@ -240,7 +242,7 @@ gap: 2rem;
   
 @media screen and (max-width: 600px){ 
   header{
-    width: 100vw;
+    
 background-image: url(../images/bg-image.jpg);
 object-fit: cover;
   }
@@ -267,10 +269,9 @@ background: #000000;
   .header-card{
     grid-template-columns:1fr;
    padding-left: 1rem;
-   margin-top: 17rem;
   }
   .projects{
-    margin-top: 58rem;
+    margin-top: 4rem;
     padding-left: 1rem;
   }
   .project-head{
@@ -372,14 +373,11 @@ background: #ffffff;
   }
   .newsletter-container{
     grid-template-columns: 1fr;
-    margin-left: 1rem;
-  
-
 
   gap: 2rem;
   }
   .newsletter-left{
-padding-left: 0;
+  padding-left: 1rem;
   }
   .newsletter-left p{
     color: black;
@@ -390,7 +388,7 @@ padding-left: 0;
   }
   .newsletter-right{
     color: #ffffff;
-    padding: 0;
+    padding-top: 1rem;
     padding-left: 1rem;
     background-color: #000000;
   }

@@ -3,23 +3,16 @@ nav{
     padding-left:6rem;
     display: flex;
   position: relative;
+  background: transparent;
 }
 .nav-wrapper{
     display: flex;
-    
     margin-bottom: 1rem;
     align-items: center;
     justify-content: space-between;
+    gap: 5rem;
 }
-.nav-wrapper h3{
-    position: absolute;
-    display: flex;
-    top: 3px;
-    left: 10px;
-    align-items: center;
-    justify-content: space-between;
-}
-    
+  
 
 .nav-links{
     display: flex;
@@ -80,7 +73,7 @@ nav{
         font-weight: 600;
         color:#000000;
         position: absolute;
-        top: 3px;
+        top: 15px;
         right: 1px;
        }
        .show-nav{
