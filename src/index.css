@@ -176,5 +176,11 @@ height: 220px;
     font-size: 2.2rem;
     line-height: 1.3;
   }
-
+.container{
+  width: 90%;
+  
+}
+body{
+  width: fit-content;
+}
 }

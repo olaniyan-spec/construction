@@ -245,7 +245,11 @@ gap: 2rem;
       }
   
 @media screen and (max-width: 600px){ 
- 
+  .header{
+    width: 350px;
+    height: 398px;
+    background-image: url(../images/bg-image.jpg);
+} 
   .header-content h1{
     text-transform: uppercase;
     width: 300px;
@@ -253,6 +257,11 @@ gap: 2rem;
   }
   .header-content button{
     margin-top: 2rem;
+  }
+  .header-card{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .header-card h2{
     font-size: 2.5rem;
@@ -294,8 +303,8 @@ gap: 10px;
 background: #ffffff;
   }
   .project-card img{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 250px;
   object-fit: cover;
   }
   .project-card h4{
@@ -332,10 +341,7 @@ background: #ffffff;
   .show-toggle{
   display: block;
   }
-  .card-content img{
-    width: 259.13px;
-    height: 259.13px;
-  }
+  
   .team{
     margin-top: 5rem;
   }
@@ -361,10 +367,7 @@ background: #ffffff;
     text-align: center;
     padding-left: 0rem;
   }
-  .card-content img{
-    width: 250px;
-    height: 250px;
-  }
+
   .newsletter{
     margin-top: 7rem;
   }
