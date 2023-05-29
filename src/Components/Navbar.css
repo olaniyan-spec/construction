@@ -3,7 +3,8 @@ nav{
     padding-left:6rem;
     display: flex;
   position: relative;
-  background: transparent;
+  height: fit-content;
+
 }
 .nav-wrapper{
     display: flex;
