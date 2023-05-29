@@ -254,7 +254,7 @@ gap: 2rem;
   }
   .projects{
     margin-top: 3rem;
-    padding-left: 1.4rem;
+    padding-left: 1rem;
   }
   .project-card img{
     width: 344px;
@@ -281,7 +281,7 @@ gap: 2rem;
   gap: 12rem;
 
 }.expertise{
-  padding-left: 1.5rem;
+  padding-left: 1rem;
 }
 .expertise-head h1{
   font-size: 1.8rem;
@@ -315,14 +315,14 @@ gap: 2rem;
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  padding-left: 1.6rem;
+  padding-left: 1.2rem;
 }
 .card-content{
   width: 317px;
   text-align: center;
 }
 .card-content img{
-  width: 344px;
+  width: 324px;
   height: 324px;
 }
 .card-content img:hover{
@@ -335,7 +335,7 @@ grid-template-columns:1fr ;
 }
 .newsletter-left{
   padding: 3rem;
-  padding-left: 3rem;
+  padding-left: 1rem;
   justify-content: center;
 }
 
