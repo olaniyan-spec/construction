@@ -8,7 +8,7 @@ const HeaderCard = () => {
     <div className='header-card'>
             {
                 data.map((res, id)=>{
-                    return <Card key={id}>
+                    return <Card key={id} className='header-wrapper'>
                         <h2>{res.title}</h2>
                         <h4>{res.desc}</h4>
                         <small>{res.text}</small>

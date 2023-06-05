@@ -29,6 +29,7 @@ background: #000000;
     grid-template-columns: repeat(3, 1fr);
    margin-left: 2rem;
   }
+
   .header-card img:hover{
       transform: scale(1.1);
       cursor: default;
@@ -246,11 +247,19 @@ gap: 2rem;
       }
   
 @media screen and (max-width: 600px){ 
+  .header{
+    background-image: url(../images/mobile-bg.jpg);
+  }
   .header-content p{
     max-width: 300px;
   }
   .header-card{
     grid-template-columns: 1fr;
+  }
+  .header-wrapper{
+    justify-content: center;
+   align-items: center;
+   margin-left: 2.5rem;
   }
   .projects{
     margin-top: 3rem;

@@ -181,6 +181,6 @@ height: 220px;
   
 }
 body{
-  width: fit-content;
+ width: 100vw;
 }
 }
